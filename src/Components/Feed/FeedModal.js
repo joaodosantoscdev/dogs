@@ -5,6 +5,8 @@ import styles from './FeedModal.module.css'
 import Error from '../Helper/Error';
 import Loading from '../Helper/Loading';
 import PhotoContent from '../Photo/PhotoContent';
+import Head from '../Helper/Head';
+
 
 const FeedModal = ({ photo, setModalPhoto }) => {
   const {data, error, loading, request} = useFetch();
