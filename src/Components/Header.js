@@ -11,9 +11,12 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
-        <Link className={styles.logo} to="/" aria-label="Dogs | Home">
-          <Dogs />
-        </Link>
+        <div className={styles.brand}>
+          <Link className={styles.logo} to="/" aria-label="Dogs | Home">
+            <Dogs />
+            <h1>dogs.</h1>
+          </Link>
+        </div>
         {data ? (
           <Link className={styles.login} to="/conta">
             {data.nome}
