@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
   gap: 2rem;
+  margin: 0 auto;
+  
 }
 
 .login::before {
@@ -10,11 +12,13 @@
   display: block;
   background: url('../../Assets/login.jpg') no-repeat center center;
   background-size: cover;
+  box-shadow: -1px 0 5px 5px rgba(0,0,0,.2);
 }
 
 .forms {
   max-width: 30rem;
   padding: 1rem;
+  margin-left: 1rem;
 }
 
 @media (max-width: 40rem) {
