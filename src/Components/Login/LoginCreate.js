@@ -24,7 +24,7 @@ async function handleSubmit(event) {
       password: password.value
     });
     const { response } = await request(url, options)
-    if(!response.ok) userLogin(username.value, password.value);
+    if(response.ok) userLogin(username.value, password.value);
   }
 
   return (
