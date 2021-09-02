@@ -45,7 +45,7 @@ A social-media for dogs, created during Origamid React classes.
 <hr>
 <h3>Overview ⮯</h3>
 <p> There was applied here my knownledges in HTML5, CSS & React, for and a better visual experience for the final user.</p>
-<h3>The path of the project was to clearly apply the most used and up-to-date concepts used in this lib, using most part of the resources that are avaliable, creating custom and reactive components, custom hooks, using open tools as <strong>Babel & Webpack</strong> to manage and compilate all code into modern JavaScript,<strong>React Router DOM</strong>, to gerenciate routes for the aplication, a custom library with graph designs called <strong>Victory</strong>.</h3>
+<hp>The path of the project was to clearly apply the most used and up-to-date concepts used in this lib, using most part of the resources that are avaliable, creating custom and reactive components, custom hooks, using open tools as <strong>Babel & Webpack</strong> to manage and compilate all code into modern JavaScript,<strong>React Router DOM</strong>, to gerenciate routes for the aplication, a custom library with graph designs called <strong>Victory</strong>.</p>
 <p>The main idea behind the project has to create a social-media for dogs, that you can, post, comment, create a on user-profile, visit other users profile, check the stats of your own profile, with a flow similar to Instagram.</p>
 <p>Was used a external <strong>JSON REST API in Wordpress</strong> to serve the data for the front-end, consuming, updating, deleting and posting information into the App with custom endpoints, that you can register into and navigate freely.</p>
 <p>Concepts were also used to improve UI/UX, ensuring the responsiveness and speed of the application 💻🖥️📱</p>
