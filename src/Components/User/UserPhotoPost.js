@@ -45,8 +45,8 @@ const UserPhotoPost = () => {
       <Head title="Poste sua foto" />
       <form onSubmit={handleSubmit}>
         <Input label="Nome" type="text" name="name" {...name} />
-        <Input label="Peso" type="number" name="weight" {...weight} />
-        <Input label="Idade" type="number" name="age" {...age } />
+        <Input label="Peso" type="number" name="weight" min="1" max="100" {...weight} />
+        <Input label="Idade" type="number" name="age" min="1" max="100" {...age } />
         <input className={styles.file} type="file" name="img" id="img" onChange={handleImgChange}/>
         {loading ?(
         <Button disabled>Enviando...</Button>

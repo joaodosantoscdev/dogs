@@ -7,6 +7,7 @@ import Input from './Forms/Input';
 import Error from '../Helper/Error';
 import Head from '../Helper/Head';
 
+
 const LoginPasswordLost = () => {
   const login = useForm();
   const {data, loading, error, request} = useFetch();
@@ -19,11 +20,12 @@ const LoginPasswordLost = () => {
          url: window.location.href.replace('perdeu', 'resetar'),
       });
       const { json } = await request(url, options);
+      console.log(json);
     }; 
   }
 
   return (
-    <section className="animeLeft">
+    <section className={`animeLeft`}>
       <Head title="Recupere sua Senha" />
       <h1 className="title">Perdeu a senha?</h1>
       {data ? (
