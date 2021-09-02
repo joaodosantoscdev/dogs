@@ -37,14 +37,14 @@
   top: -1px;
 }
 
-.nav h1 {
-  display: inline-block;
-  padding-left: .3rem;
-  align-items: center;
-  justify-content: center;
+.login:hover {
+  text-decoration: underline;
 }
 
-
-
-
-
+.nav h1 {
+  display: inline-block;
+  padding-left: .5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
