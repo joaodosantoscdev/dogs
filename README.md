@@ -60,7 +60,7 @@ A social-media for dogs, created during Origamid React classes.
   <li>Organics/Dinamics animations 🧑‍💻</li>
 </ul>
 <h3>How to run ⮯</h3>
-<p>You just need to have a VSCODE copy installed, you can open the main folder, go to the terminal and do a "npm start" for the development ambient, the build version isn't hosted, but is ready to be online! You can register, or, if you want use the default user for tests.</p>
+<p>You just need to have a VSCODE copy installed, NODE.js and NPM you can check that on your terminal by tiping <strong>"npm -v"</strong> and <strong>"node -v"</strong>. You can open the main folder, go to the terminal and do a <strong>"npm start"</strong> for the development ambient, the local gateway is "http://localhost:3000/" the build version isn't hosted, but is ready to be online! You can register, or, if you want use the default user for tests.</p>
 <p>The default user is:</p>
 <li>username: dog</li>
 <li>password: dog</li>
