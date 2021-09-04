@@ -11,7 +11,7 @@ const FeedPhotos = ({ page, user, setModalPhoto, setInfinite }) => {
   
   React.useEffect(() => {
     async function fetchPhotos() {
-      const total = 3;
+      const total = 6;
       const { url, options } = PHOTOS_GET({ page, total, user });
       const { response, json } = await request(url, options);
       if (response && response.ok && json.length < total) 
@@ -26,7 +26,7 @@ const FeedPhotos = ({ page, user, setModalPhoto, setInfinite }) => {
   if(data)
     return (
       <ul className={`${styles.feed} animeLeft`}>
-        {data.map(photo => (
+        { data.map(photo => (
           <FeedPhotosItem setModalPhoto={setModalPhoto} key={photo.id} photo={photo} />
         ))}
       </ul>
