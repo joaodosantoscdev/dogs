@@ -13,11 +13,10 @@ const UserStatsGraphs = ({ data }) => {
         y: Number(item.acessos)
       }
     });
-    if(setTotal === true)
     setTotal(
-      data.map(({ acessos }) => Number(acessos)).reduce((a, b) => a + b)
+      data.map(({ acessos }) => 
+      Number(acessos)).reduce((a, b) => a + b, 0)
     );
-    else return false;
     setGraph(graphData);
   }, [data]);
 
