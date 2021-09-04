@@ -52,7 +52,7 @@ A social-media for dogs, created during Origamid React classes.
 <h3>The project has concepts like:</h3>
 <ul>
   <li>Fetch for external API's in JSON format 🔧</li>
-  <li>Infinite Scroll in homepage ⬇</li>
+  <li>Infinite Scroll homepage ⬇</li>
   <li>Log-in system, with password-reset, auto-login and token validation ⬇</li>
   <li>Profile maneagement ⬇</li>
   <li>Post with a modal component and integrated comment list ⬇</li>
