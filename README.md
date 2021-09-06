@@ -45,14 +45,14 @@ A social-media for dogs, created during Origamid React classes.
 <hr>
 <h3>Overview ⮯</h3>
 <p> There was applied here my knownledges in HTML5, CSS & React, for and a better visual experience for the final user.</p>
-<hp>The path of the project was to clearly apply the most used and up-to-date concepts used in this lib, using most part of the resources that are avaliable, creating custom and reactive components, custom hooks, using open tools as <strong>Babel & Webpack</strong> to manage and compilate all code into modern JavaScript,<strong>React Router DOM</strong>, to gerenciate routes for the aplication, a custom library with graph designs called <strong>Victory</strong>.</p>
+<hp>The path of the project was to clearly apply the most used and up-to-date concepts used in this lib, using most part of the resources that are avaliable, creating custom and reactive components, custom hooks, using open tools as <strong>Babel & Webpack</strong> to manage and compilate all code into modern JavaScript, <strong>React Router DOM</strong>, to gerenciate routes for the aplication, a custom library with graph designs called <strong>Victory</strong>.</p>
 <p>The main idea behind the project has to create a social-media for dogs, that you can, post, comment, create a on user-profile, visit other users profile, check the stats of your own profile, with a flow similar to Instagram.</p>
 <p>Was used a external <strong>JSON REST API in Wordpress</strong> to serve the data for the front-end, consuming, updating, deleting and posting information into the App with custom endpoints, that you can register into and navigate freely.</p>
 <p>Concepts were also used to improve UI/UX, ensuring the responsiveness and speed of the application 💻🖥️📱</p>
 <h3>The project has concepts like:</h3>
 <ul>
   <li>Fetch for external API's in JSON format 🔧</li>
-  <li>Infinite Scroll in homepage ⬇</li>
+  <li>Infinite Scroll homepage ⬇</li>
   <li>Log-in system, with password-reset, auto-login and token validation ⬇</li>
   <li>Profile maneagement ⬇</li>
   <li>Post with a modal component and integrated comment list ⬇</li>
@@ -60,7 +60,7 @@ A social-media for dogs, created during Origamid React classes.
   <li>Organics/Dinamics animations 🧑‍💻</li>
 </ul>
 <h3>How to run ⮯</h3>
-<p>You just need to have a VSCODE copy installed, NODE.js and NPM you can check that on your terminal by tiping <strong>"npm -v"</strong> and <strong>"node -v"</strong>. You can open the main folder, go to the terminal and do a <strong>"npm start"</strong> for the development ambient, the local gateway is <strong>"http://localhost:3000/"</strong> the build version isn't hosted, but is ready to be online! You can register, or, if you want use the default user for tests.</p>
+<p>You just need to have a VSCODE copy installed, NODE.js and NPM you can check that on your terminal by tiping <strong>"npm -v"</strong> and <strong>"node -v"</strong>. You can open the main folder with yor IDE, do a <strong>"npm install"</strong> on your terminal to install the "node_modules" folder and do a <strong>"npm start"</strong> for the development ambient, the local gateway is <strong>"http://localhost:3000/"</strong> the build version isn't hosted, but is ready to be online! You can register, or, if you want use the default user for tests.</p>
 <p>The default user is:</p>
 <li>username: dog</li>
 <li>password: dog</li>
