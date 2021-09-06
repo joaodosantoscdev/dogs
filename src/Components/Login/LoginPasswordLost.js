@@ -6,6 +6,7 @@ import Button from './Forms/Button';
 import Input from './Forms/Input';
 import Error from '../Helper/Error';
 import Head from '../Helper/Head';
+import NavBack from '../Helper/NavBack';
 
 
 const LoginPasswordLost = () => {
@@ -27,6 +28,7 @@ const LoginPasswordLost = () => {
   return (
     <section className={`animeLeft`}>
       <Head title="Recupere sua Senha" />
+      <NavBack />
       <h1 className="title">Perdeu a senha?</h1>
       {data ? (
         <p style={{color: '#4c1'}}>{data}</p>
