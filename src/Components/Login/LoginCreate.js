@@ -7,6 +7,7 @@ import { UserContext } from '../../UserContext';
 import useFetch from '../../Hooks/useFetch';
 import Error from '../Helper/Error'
 import Head from '../Helper/Head';
+import NavBack from '../Helper/NavBack';
 
 const LoginCreate = () => {
   const username = useForm();
@@ -30,6 +31,7 @@ async function handleSubmit(event) {
   return (
     <section className="animeLeft">
       <Head title="Cadastro" description="Cadastre-se agora!" />
+      <NavBack />
       <h1 className="title">Cadastre-se</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
