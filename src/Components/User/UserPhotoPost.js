@@ -8,6 +8,7 @@ import { PHOTO_POST } from '../../api';
 import Error from '../Helper/Error'
 import { useNavigate } from 'react-router';
 import Head from '../Helper/Head';
+import DefaultImg from '../../Assets/default.jpg'
 
 const UserPhotoPost = () => {
   const name = useForm();
@@ -56,7 +57,11 @@ const UserPhotoPost = () => {
         <Error error={error} />
       </form>
       <div>
-        {img.preview && <div className={styles.preview} style={{backgroundImage: `url('${img.preview}')`}}></div>}
+        {img.preview && <div className={styles.preview} style={{backgroundImage: `url('${img.preview}')`}}></div> ? (
+           <div className={styles.preview} style={{backgroundImage: `url('${img.preview}')`}}></div>
+           ) : (
+           <img src={DefaultImg} alt="default" className={styles.preview} />
+        )}
       </div>
     </section>
   )
