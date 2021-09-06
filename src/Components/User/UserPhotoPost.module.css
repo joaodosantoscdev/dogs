@@ -9,6 +9,15 @@
   .photoPost {
     grid-template-columns: 1fr;
   }
+  form {
+    grid-row: 2;
+    padding-bottom: 2rem;
+  }
+
+  .preview {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 
 .file {
