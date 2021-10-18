@@ -3,7 +3,7 @@ A social-media for dogs, created during Origamid React classes.
 
 <h2>Hello ❕</h2>
 <h3>➡️This project was developed using <strong>HTML5, CSS & React</strong> 🛠️</h3>
-<p>➡️Developed during Origamid React classes and you can acess <a src="http://dogs-social.tk/">here</a>.</p>
+<p>➡️Developed during Origamid React classes and you can acess <a href="http://dogs-social.tk/" alt="dogs-website">here</a>.</p>
 
 <hr>
 <h3>Desktop 🖥️</h3>
