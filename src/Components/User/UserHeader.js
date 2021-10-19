@@ -11,7 +11,7 @@ const UserHeader = () => {
     const { pathname } = location
     switch(pathname) {
       case '/conta/estatisticas':
-        setTitle('Estátisticas');
+        setTitle('Estatísticas');
         break;
       case '/conta/postar' :
       setTitle('Poste sua Foto');
