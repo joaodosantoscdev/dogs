@@ -28,7 +28,7 @@ const LoginForm = () => {
     <section className="animeLeft">
       <h1 className="title">Login</h1>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <Input label="Úsuario" type="text" name="username" {...username} />
+        <Input label="Usuário" type="text" name="username" {...username} />
         <Input label="Senha" type="password" name="password" {...password} />
         {loading ? (
           <Button disabled>Carregando...</Button>
