@@ -7,22 +7,22 @@ A social-media for dogs, created during Origamid React classes.
 
 <hr>
 <h3>Desktop 🖥️</h3>
-<img src="readme-imgs/home.jpg"></img>
-<br>
-<img src="readme-imgs//home2.jpg"></img>
-<br>
+<img src="readme-imgs/home.jpg"></img> <img src="readme-imgs//home2.jpg"></img>
+
+
+
 <img src="readme-imgs/modal.jpg"></img>
-<br>
+
 <img src="readme-imgs/login.jpg"></img>
-<br>
+
 <img src="readme-imgs/registro.jpg"></img>
-<br>
+
 <img src="readme-imgs/profile.jpg"></img>
-<br>
+
 <img src="readme-imgs/user-profile.jpg"></img>
-<br>
+
 <img src="readme-imgs/post.jpg"></img>
-<br>
+
 <img src="readme-imgs/stats.jpg"></img>
 <hr>
 <h3>Mobile 📱</h3>
