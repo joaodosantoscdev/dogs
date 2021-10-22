@@ -28,21 +28,21 @@ A social-media for dogs, created during Origamid React classes.
 <h3>Mobile 📱</h3>
 <hr>
 <div style="inline_block">
-  <img allign="center" height="400px" width="200px" src="readme-imgs/home-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/home-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/modal-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/modal-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/login-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/login-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/registro-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/registro-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/profile-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/profile-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/user-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/user-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/stats-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/stats-mob.jpg"></img>
 
-  <img allign="center" height="400px"  width="200px" src="readme-imgs/post-mob.jpg"></img>
+  <img allign="left" height="400px" src="readme-imgs/post-mob.jpg"></img>
 </div>
 <br>
 <hr>
