@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
+/.vs
+/.vscode
 .pnp.js
 /.vscode
 /.vs
@@ -23,6 +25,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 
 
 .DS_STORE
@@ -63,3 +66,5 @@ packages/react-devtools-extensions/.tempUserDataDir
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-scheduling-profiler/dist
+
+
