@@ -7,7 +7,7 @@ A social-media for dogs, created during Origamid React classes.
 
 <hr>
 <h3>Desktop 🖥️</h3>
-<img src="readme-imgs/home.jpg"></img> <img src="readme-imgs//home2.jpg"></img>
+<img src="readme-imgs/home.jpg"></img> <img allign="left" src="readme-imgs//home2.jpg"></img>
 
 
 
@@ -24,7 +24,7 @@ A social-media for dogs, created during Origamid React classes.
 <img src="readme-imgs/post.jpg"></img>
 
 <img src="readme-imgs/stats.jpg"></img>
-<hr>
+
 <h3>Mobile 📱</h3>
 <hr>
 <div style="inline_block">
