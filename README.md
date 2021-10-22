@@ -27,21 +27,23 @@ A social-media for dogs, created during Origamid React classes.
 <hr>
 <h3>Mobile 📱</h3>
 <hr>
-<img src="readme-imgs/home-mob.jpg"></img>
-<br>
-<img src="readme-imgs/modal-mob.jpg"></img>
-<br>
-<img src="readme-imgs/login-mob.jpg"></img>
-<br>
-<img src="readme-imgs/registro-mob.jpg"></img>
-<br>
-<img src="readme-imgs/profile-mob.jpg"></img>
-<br>
-<img src="readme-imgs/user-mob.jpg"></img>
-<br>
-<img src="readme-imgs/stats-mob.jpg"></img>
-<br>
-<img src="readme-imgs/post-mob.jpg"></img>
+<div style="inline_block">
+  <img allign="center" src="readme-imgs/home-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/modal-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/login-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/registro-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/profile-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/user-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/stats-mob.jpg"></img>
+
+  <img allign="center" height="300px" src="readme-imgs/post-mob.jpg"></img>
+</div>
 <br>
 <hr>
 <h3>Overview ⮯</h3>
